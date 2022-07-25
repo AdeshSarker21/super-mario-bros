@@ -1,0 +1,562 @@
+/*============
+font-family: 'Roboto', sans-serif;
+font-family: 'Titan One', cursive;
+font-family: 'Voltaire', sans-serif;
+font-family: 'Work Sans', sans-serif;
+=============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Titan+One&family=Voltaire&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+/*=========================================*/
+/*============Start Header Section==========*/
+/*=========================================*/
+.mainHeaderSection {
+    background-color: #081971;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.mainLogo {
+    height: 100%;
+}
+
+.headerText {}
+
+.headerTextLogo {
+    width: 470px;
+    margin-left: 5%;
+}
+
+.menu {}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -4%;
+    margin-left: 2%;
+}
+
+.navList {
+    margin-right: 24px;
+}
+
+.navList:last-child {
+    margin: 0;
+}
+
+.navLink {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 8px 57px 14px 24px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3A3131;
+}
+
+.navLink:hover {
+    background: #fff;
+    color: #3A3131;
+}
+
+.mainHeaderSection {}
+
+.responsive_header {
+    display: none;
+}
+
+/*=========================================*/
+/*============End Header Section==========*/
+/*=========================================*/
+/*=========================================*/
+/*=========Start Contact Form Section=======*/
+/*=========================================*/
+.mainContactFormSection {
+    margin-top: 40px;
+    background: #3A3131;
+    padding: 0px 24px 24px 24px;
+}
+
+.formArea {}
+
+.formLeftArea {
+    border-right: 10px solid #C4C4C4;
+    padding-right: 5%;
+}
+
+.formHeading {
+    padding-top: 24px;
+    padding-bottom: 78px;
+}
+
+.formHeadingText {
+    font-family: 'Voltaire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 66px;
+    color: #FFFFFF;
+    background: #294DA9;
+    padding: 14px 10px;
+    display: inline-block;
+}
+
+.formGroup {
+    margin-bottom: 30px;
+}
+
+.formGroup .inputHeading {
+    ont-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.formGroup input {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000;
+    padding: 5px 10px 3px 46px;
+    border: none;
+    background: #fff;
+    width: 60%;
+}
+
+.formGroup input::-webkit-input-placeholder {
+    color: #C4C4C4;
+}
+
+.formGroup input:-ms-input-placeholder {
+    color: #C4C4C4;
+}
+
+.formGroup input::placeholder {
+    color: #C4C4C4;
+}
+
+.messageBox {
+    width: 85%;
+}
+
+.messageBox textarea {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000;
+    padding: 5px 10px 3px 46px;
+    border: none;
+    background: #fff;
+    resize: none;
+    width: 100%;
+}
+
+.messageBox textarea::-webkit-input-placeholder {
+    color: #C4C4C4;
+}
+
+.messageBox textarea:-ms-input-placeholder {
+    color: #C4C4C4;
+}
+
+.messageBox textarea::placeholder {
+    color: #C4C4C4;
+}
+
+.submitButton {
+    width: 15%;
+    margin-top: 41px;
+}
+
+.submitButton input {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #FD0606;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 23px;
+    border: none;
+}
+
+.formRightArea {
+    padding: 100px 80px 100px 49px;
+}
+
+.horizontalLine {}
+
+.lineOne {
+    width: 100%;
+    height: 10px;
+    background: #000;
+    margin-bottom: 83px;
+}
+
+.horizontalLineArea {
+    margin-bottom: 49px;
+}
+
+.icon {
+    width: 15%;
+    margin-right: 24px;
+}
+
+.icon img {
+    height: 68px;
+    width: 63px;
+}
+
+.horizontalLineItem {
+    width: 85%;
+}
+
+.lineTwo {
+    width: 100%;
+    height: 10px;
+    background: #000;
+    margin-bottom: 3px;
+}
+
+.lineThree {
+    width: 100%;
+    height: 10px;
+    background: #000;
+    margin-bottom: 3px;
+}
+
+.lineFour {
+    width: 100%;
+    height: 10px;
+    background: #000;
+    margin-bottom: 3px;
+}
+
+/*=========================================*/
+/*=========End Contact Form Section=======*/
+/*=========================================*/
+/*=========================================*/
+/*=============Start Footer Section=========*/
+/*=========================================*/
+.mainFooterArea {
+    background: #3A3131;
+    border-top: 2px solid #000;
+    padding: 5px 0px;
+}
+
+.email {}
+
+.email input {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000;
+    border: none;
+    padding: 5px;
+    border: none;
+    background: #fff;
+    width: 70%;
+}
+
+.email input::-webkit-input-placeholder {
+    color: #C4C4C4;
+    font-family: 'Titan One';
+}
+
+.email input:-ms-input-placeholder {
+    color: #C4C4C4;
+    font-family: 'Titan One';
+}
+
+.email input::placeholder {
+    color: #C4C4C4;
+    font-family: 'Titan One';
+}
+
+.join {}
+
+.join input {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #FD0606;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 23px;
+    border: none;
+}
+
+.next {}
+
+.next a {
+    display: inline-block;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #FD0606;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 23px;
+    border: none;
+    margin-left: 25px;
+}
+
+/*=========================================*/
+/*=============End Footer Section=========*/
+/*=========================================*/
+/* ---------------------------------------------------------------------------------------- */
+/* ----------------------------------Page Two CSS----------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+.bodyWapper {
+    background: url(../images/bg-01.png) no-repeat scroll 0 0 / 100% 100%;
+}
+
+.mainBodySection {
+    padding: 140px 0px 307px;
+}
+
+.reviewArea {
+    width: 714px;
+    height: 398px;
+    margin: 0 auto;
+    background: #3A3131;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 18px 139px;
+}
+
+.reviewHeading {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    color: #FFFFFF;
+    background: #F50707;
+    display: inline-block;
+    transform: rotate(-0.07deg);
+}
+
+.reviewDetails {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ----------------------------------Page Three CSS----------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+.customPadding {
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.mainControlBox {
+    margin-top: 20px;
+}
+
+.reviewAreaTwo {}
+
+.reviewTwo {
+    width: 80%;
+    margin: 0 auto;
+    background: #3A3131;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 18px;
+    margin-bottom: 21px;
+    ;
+}
+
+.reviewTwoHeading {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    color: #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #F50707;
+    display: inline-block;
+}
+
+.reviewTwoDetails {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.features {
+    width: 80%;
+    margin: 0 auto;
+    background: #3A3131;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 18px;
+    margin-bottom: 21px;
+    ;
+}
+
+.featuresHeading {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    color: #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #F50707;
+    display: inline-block;
+}
+
+.featuresDetails {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.newReleaseProductSection {
+    margin: 25px 0px 15px;
+    background: #3A3131;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 18px;
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 9%;
+    left: 31%;
+}
+
+.releaseProduct {}
+
+.releaseProduct img {
+    margin-right: 25px;
+    ;
+}
+
+.releaseTextArea {}
+
+.releaseHeading {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    color: #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #F50707;
+    display: inline-block;
+    text-align: center !important;
+    margin-left: 25%;
+}
+
+.releaseDetails {
+    text-align: left;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.newPossiton {
+    position: relative;
+}
+
+.roundedArea {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+}
+
+.roundedItem {
+    width: 39px;
+    height: 34.93px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    margin-right: 10px;
+}

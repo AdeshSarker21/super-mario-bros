@@ -1,0 +1,216 @@
+@media all and (max-width:991px) {
+    .mainHeaderSection {
+        display: none;
+    }
+
+    .responsive_header {
+        display: block;
+        background: #081971;
+    }
+
+    .navList {
+        margin-right: 0px;
+    }
+
+    .mainControlBox img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .reviewTwo {
+        width: 100%;
+    }
+
+    .features {
+        width: 100%;
+    }
+
+    .newReleaseProductSection {
+        flex-direction: column;
+    }
+
+    .releaseProduct {
+        text-align: center;
+    }
+
+    .releaseProduct img {
+        margin-right: 0px;
+        text-align: center !important;
+        margin-bottom: 25px;
+    }
+
+    .releaseHeading {
+        margin-left: 0;
+        text-align: center !important;
+    }
+
+    .releaseTextArea {
+        text-align: center;
+    }
+
+    .releaseDetails {
+        text-align: center;
+    }
+
+    .features {
+        text-align: center;
+    }
+
+    .reviewTwo {
+        text-align: center;
+    }
+
+    .roundedArea {
+        visibility: hidden;
+    }
+
+    .arrow {
+        display: none !important;
+    }
+
+    .formLeftArea {
+        border-right: 0px solid #C4C4C4;
+        padding-right: 0;
+    }
+
+    .messageBox {
+        width: 100%;
+    }
+
+    .reviewArea {
+        width: 100%;
+        height: auto;
+        padding: 18px 19px;
+    }
+
+    .mainBodySection {
+        padding: 125px 0px 100px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .newPossiton {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .email input {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .next a {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .roundedArea {
+        visibility: visible;
+        position: unset;
+        margin-top: 15px;
+    }
+
+    .formRightArea {
+        padding: 20px 0px 25px 0px;
+    }
+
+    .fleXBoxTwo {
+        flex-direction: column;
+    }
+
+    .submitButton input {
+        width: 120px !important;
+    }
+
+    .submitButton {
+        width: unset;
+        margin-top: 20px;
+    }
+
+    .reviewHeading {
+        font-size: 27px;
+        line-height: 39px;
+    }
+
+    .reviewDetails {
+        font-size: 22px;
+        line-height: 31px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .releaseProduct img {
+        width: 100%;
+    }
+
+    .reviewTwoDetails {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    .featuresDetails {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    . font-size: 21px;
+    line-height: 29px;
+}
+
+.formGroup input {
+    font-size: 25px;
+    width: 100%;
+}
+}
+
+@media all and (max-width:480px) {
+    .reviewTwoHeading {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .featuresHeading {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .releaseHeading {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .releaseDetails {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .featuresDetails {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .reviewTwoDetails {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .join input {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .next a {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .reviewHeading {
+        font-size: 23px;
+        line-height: 39px;
+    }
+
+    .reviewDetails {
+        font-size: 19px;
+        line-height: 31px;
+    }
+}
